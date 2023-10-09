@@ -1,0 +1,293 @@
+
+@media (color){
+    BODY
+    {font-size:14px;
+     font-family:Arial, Helvetica, sans-serif;
+     line-height:1.4;
+     color:black;
+     background-color:#ffffff;
+
+    }
+    .img-responsive {
+        display:block;
+        height:auto;
+        max-width:100%;
+    }
+    a[href^="#"] {
+        color:blanchedalmond;
+    }
+    a:hover,a:focus {
+        color:goldenrod;
+        text-decoration:underline;
+    }
+    a:focus {
+        outline: thin dotted auto;
+        outline: 5px auto;
+        z-index: 999;
+    }
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        background-color:cornflowerblue;
+    }
+        .container:before,
+        .container:after {
+            display:a;
+            content:cross-fade();
+        }
+   .navborder li {
+        list-style-type: none;
+        margin: auto;
+        padding: 4px 7px 2px 7px;
+        width:auto;
+        display:inline;
+    }   
+    .liA {
+        display: block;
+        width: auto;
+        text-align: left;
+        padding: 4px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 10px;
+        display: inline;
+    }
+    .nav {
+        position: fixed;
+        background-color: rebeccapurple;
+        top: 0;
+        line-height: 6px;
+        width: 100%;
+   
+    }
+    .navalter {
+        position: fixed;
+        background: linear-gradient(lightblue, pink);
+        top: 0;
+        line-height: 6px;
+        width: 100%;
+    }
+    .headword {
+        color:goldenrod;
+        text-decoration:from-font;
+        text-align:right;
+    }
+    content {
+        display:block;
+        height:100px;
+    }
+    .navborder {
+         border-top: none;
+        border-left: none;
+        border-right: none;
+        border-radius: 0;
+        border-bottom: 3px solid transparent;
+        border-color:lightcoral;
+        padding-bottom:6px;
+    }
+    .sizein {
+        box-sizing: border-box;
+    }
+    .sizeout {
+        padding:5% 20px 100px 20px;
+        border:10px 0px 10px 0px;
+    }
+    .inlinepic {
+        width:auto;
+        height:80px;
+        text-align:right;
+    }
+    .emoji {
+        font-variant-emoji:emoji;
+    }
+    #slider,ul[id="pics"],a {
+        width:600px;
+        height:400px;
+    }
+    #slider {
+        position:absolute;
+        border: 2px solid black;
+        margin: 10px 0 0 10px;
+        overflow:hidden;
+        -webkit-user-select:none;
+        -moz-user-select:none;
+        -ms-user-select:none;
+        user-select:none;
+    }
+    ul[id="pics"] {
+        position:absolute;
+        list-style-type:none;
+        width:2400px;
+
+    }
+    .left {
+        float:left;
+    }
+    .block{
+        display:inline-block;
+    }
+    img{
+        width:100%;
+        height:100%;
+    }
+    li form {
+        display:inline-block;
+
+    }
+    #searchbtn {
+        background-color: hotpink;
+        color: blanchedalmond;
+        border-top:0px;
+        border-left:0px;
+    }
+        #searchbtn:hover {
+            color: mediumpurple;
+            text-decoration: underline;
+        }
+    .linethrough {
+        text-decoration:line-through;
+        font-size:10px;
+    }
+    .linenone {
+        text-decoration:none;
+        font-size:10px;
+
+    }
+    .main {
+        display:block;
+        height:auto;
+        width:90%;
+        background-color:antiquewhite;
+        border:solid 5px lightgray;
+        margin:auto;
+        padding:0px 5px 10px 5px;
+    }
+    .bottom {
+        background-color: rebeccapurple;
+        border-radius: 20px;
+        padding: 50px 0px 20px 0px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom:5px solid orange;
+    }
+    .bottomul {
+        
+    }
+    .bottomli {
+        
+        font-display: auto;
+        text-decoration: none;
+        line-height: 35px;
+        font-size: 15px;
+        width:13%;    
+        text-shadow:#42186b 2px 0.2em 2px;
+    }
+    .totop {
+        background-color: lightpink;
+        position: fixed;
+        width: 10%;
+        height: 10%;
+        top: 80%;
+        right: 10px;
+        display: block;
+        border: 1px solid antiquewhite;
+        border-radius:5px;
+        text-align: center;
+    }
+    .totoptext {
+        font-display: auto;
+        text-decoration: none;
+        
+        line-height:55px;
+        font-size:25px;
+    }
+    #playing {
+       position:center;
+        width:auto;
+        display:inline-block;
+        text-align:center;
+        right:50%;
+    }
+    .middle {
+        text-align:center;
+        width:100%;
+    }
+    .box {
+        position: fixed;
+        width: 30%;
+        height: 30%;
+        top: 40%;
+        right: 35%;
+        display: block;
+        background-color: rebeccapurple;
+        border: 2px solid blanchedalmond;
+        width:30%;
+        padding:4px 6px 4px 6px;
+    }
+    buttoncross {
+        border-radius:20px;
+        background-color:lightpink;
+        float:right;
+    }
+    .mylist {
+        position:absolute;
+        display:block;
+       
+        right:8%;
+        height:6%;
+        padding:0px 0px 0px 10px;
+        width:80px;
+    }
+        .mylist li {
+            text-decoration: none;
+            font-size: 8px;
+            list-style-type: none;
+            line-height: 15px;
+            text-align: center;
+            height: 20px;
+            border: 1px solid lightpink;
+            background-color: rebeccapurple;
+            color: blanchedalmond;
+            font-weight:400;
+        }
+
+    .picsqueue {
+            width:inherit;
+            text-align:center;
+            white-space:nowrap;
+            
+            text-align:left;
+    }
+        .picsqueue li {
+            list-style:none;
+            overflow:hidden;
+            display:inline-block;
+            transition:all 1s;
+            width:100px;
+            border-left:-10px solid transparent;
+                        
+        }
+        .picsqueue img {
+            width:100%;
+            height:100%;
+            object-fit:cover;
+        }
+    .queuefather {
+        width:100%;
+    }
+}
+@media (all) {
+    .nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        background-color: rebeccapurple;
+        top:0;
+        width:100%;
+    }
+    
+}
